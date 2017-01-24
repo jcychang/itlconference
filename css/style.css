@@ -58,15 +58,16 @@ li {
 	}
 }
 a {
-	color: #42DCA3;
-	-webkit-transition: all 0.2s ease-in-out;
+	color: rgb(224,58,62);
+	/*-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;*/
 }
 a:hover,
 a:focus {
+	color: rgb(224,58,62);
 	text-decoration: none;
-	color: #1d9b6c;
+	/*color: #1d9b6c;*/
 }
 .light {
 	font-weight: 400;
