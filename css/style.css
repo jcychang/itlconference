@@ -42,7 +42,7 @@ p {
 	text-align: justify;
 }
 li {
-	font-size: 16px;
+	font-size: 18px;
 	text-align: left;
 }
 
@@ -273,7 +273,7 @@ a:focus {
 	padding: 100px 0 50px 0;
 	color: black;
 	/*background: url(../img/UE-headshots_Marco10.jpg) no-repeat top center scroll;*/
-	background: url(../img/grayscale-MD.png) no-repeat center center scroll;
+	/*background: url(../img/grayscale-MD.png) no-repeat center center scroll;*/
 	background-color: white;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -295,7 +295,7 @@ a:focus {
 	width: 100%;
 	padding: 100px 0 50px 0;
 	color: black;
-	background: url(../img/grayscale-MD.png) no-repeat center center scroll;
+	/*background: url(../img/grayscale-MD.png) no-repeat center center scroll;*/
 	background-color: white;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -325,8 +325,11 @@ a:focus {
 	transition: all 0.3s ease-in-out;
 	border-radius: 5px;
 }
+.btn-archives {
+	font-size: 20px;
+}
 .btn-default {
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	color: white;
 	background-color: rgb(224,58,62);
 }
