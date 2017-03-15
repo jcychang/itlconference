@@ -46,6 +46,9 @@ tr {
 thead {
 	color: rgb(224,58,62);
 }
+table {
+	font-size: 110%;
+}
 .table-striped>tbody>tr:nth-child(odd)>td,
 .table-striped>tbody>tr:nth-child(odd)>th {
 	background-color: #f6f6f6;
