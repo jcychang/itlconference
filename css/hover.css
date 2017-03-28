@@ -35,7 +35,7 @@
 .grid figure figcaption {
 	padding: 2em;
 	color: #fff;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -79,8 +79,8 @@
 }
 
 .grid figure p {
-	letter-spacing: 1px;
-	font-size: 68.5%;
+	/*letter-spacing: 0.5px;*/
+	font-size: 75%;
 }
 
 /* Individual effects */
@@ -119,7 +119,7 @@ figure.effect-julia p {
 	color: #2f3238;
 	text-transform: none;
 	font-weight: 500;
-	font-size: 75%;
+	/*font-size: 80%;*/
 	/*-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(-400px,0,0);
