@@ -16,7 +16,7 @@
 	margin: 10px 1%;
 	min-width: 320px;
 	max-width: 480px;
-	max-height: 360px;
+	max-height: 280px;
 	width: 48%;
 	height: auto;
 	background: #3085a3;
@@ -80,6 +80,7 @@
 
 .grid figure p {
 	/*letter-spacing: 0.5px;*/
+	text-align: left;
 	font-size: 75%;
 }
 
