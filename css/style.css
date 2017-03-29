@@ -302,10 +302,11 @@ a.thumbnail:hover{
 }
 .content-section {
 	width: 100%;
-	padding: 100px 0 50px 0;
+	padding: 75px 0 0px 0;
 	color: black;
 	/*background: url(../img/grayscale-MD.png) no-repeat center center scroll;*/
-	background-color: #f9f9f9;
+	background-color: white;
+	/*background-color: #f9f9f9;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -313,11 +314,12 @@ a.thumbnail:hover{
 }
 .keynote-section {
 	width: 100%;
-	padding: 100px 0 50px 0;
+	padding: 75px 0 50px 0;
 	color: black;
 	/*background: url(../img/UE-headshots_Marco10.jpg) no-repeat top center scroll;*/
 	/*background: url(../img/grayscale-MD.png) no-repeat center center scroll;*/
-	background-color: white;
+	background-color: #f9f9f9;
+	/*background-color: white;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -325,7 +327,7 @@ a.thumbnail:hover{
 }
 .proposal-section {
 	width: 100%;
-	padding: 100px 0 50px 0;
+	padding: 75px 0 50px 0;
 	color: black;
 	/*background: url(../img/grayscale-MD.png) no-repeat center center scroll;*/
 	background-color: #f9f9f9;
@@ -336,7 +338,7 @@ a.thumbnail:hover{
 }
 .contact-section {
 	width: 100%;
-	padding: 100px 0 50px 0;
+	padding: 50px 0 50px 0;
 	color: black;
 	/*background: url(../img/grayscale-MD.png) no-repeat center center scroll;*/
 	background-color: white;
