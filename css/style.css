@@ -22,9 +22,9 @@ h3 {
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	letter-spacing: 1px;
-	-webkit-text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.5);
+	/*-webkit-text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.5);
 	-moz-text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.5);
-	text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.5);
+	text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.5);*/
 }
 h4,
 h5,
@@ -143,7 +143,7 @@ a.thumbnail:hover{
 	outline: none;
 }
 .navbar-custom a {
-	color: black;
+	color: white;
 }
 .navbar-custom .nav li a {
 	-webkit-transition: background 0.3s ease-in-out;
@@ -213,14 +213,21 @@ a.thumbnail:hover{
 	height: 100%;
 	padding: 100px 0;
 	text-align: center;
-	color: black;
-	background: url(../img/Resized/bg0.jpg) no-repeat bottom center scroll;
+	color: white;
+	background: url(../img/Resized/bg0.jpg) no-repeat;
 	background-color: black;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
   transition: background 2s ease-in-out;
+}
+.intro:before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: rgba(0,0,0,.5);
 }
 .intro .intro-body {
 	display: table-cell;
