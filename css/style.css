@@ -220,6 +220,7 @@ a.thumbnail:hover{
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+  transition: background 1.5s linear;
 }
 .intro .intro-body {
 	display: table-cell;
