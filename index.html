@@ -253,28 +253,30 @@
 
   <script>
     var images = [
+      "./img/Resized/bg0.jpg",
+      "./img/Resized/bg3.jpg",
+      "./img/Resized/bg6.jpg",
       "./img/Resized/bg1.jpg",
       "./img/Resized/bg4.jpg",
       "./img/Resized/bg7.jpg",
       "./img/Resized/bg2.jpg",
       "./img/Resized/bg5.jpg",
       "./img/Resized/bg8.jpg",
-      "./img/Resized/bg3.jpg",
-      "./img/Resized/bg6.jpg",
-      "./img/Resized/bg9.jpg",
     ]
 
     $(function () {
-        var i = 0;
+        var i = Math.floor(Math.random() * 9);
         $(".intro").css("background", "url(" + images[i] + ") no-repeat");
         $(".intro").css("background-size", "cover");
+        $(".intro").css("background-position", "center");
         setInterval(function () {
             i++;
-            if (i == images.length) {
+            if (i === images.length) {
                 i = 0;
             }
             $(".intro").css("background", "url(" + images[i] + ") no-repeat");
             $(".intro").css("background-size", "cover");
+            $(".intro").css("background-position", "center");
         }, 10000);
     });
 
