@@ -214,13 +214,13 @@ a.thumbnail:hover{
 	padding: 100px 0;
 	text-align: center;
 	color: black;
-	background: url(../img/intro-bg-cropped-2.png) no-repeat bottom center scroll;
+	background: url(../img/Resized/bg0.jpg) no-repeat bottom center scroll;
 	background-color: black;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-  transition: background 1.5s linear;
+  transition: background 2s ease-in-out;
 }
 .intro .intro-body {
 	display: table-cell;

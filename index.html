@@ -266,9 +266,6 @@
 
     $(function () {
         var i = Math.floor(Math.random() * 9);
-        $(".intro").css("background", "url(" + images[i] + ") no-repeat");
-        $(".intro").css("background-size", "cover");
-        $(".intro").css("background-position", "center");
         setInterval(function () {
             i++;
             if (i === images.length) {
