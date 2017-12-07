@@ -116,7 +116,7 @@ a.thumbnail:hover{
 	font-weight: 400;
 }
 .navbar-custom {
-  margin-top: 2em;
+  /*margin-top: 2em;*/
 	margin-bottom: 0;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 	text-transform: uppercase;
@@ -173,7 +173,7 @@ a.thumbnail:hover{
 	color: white;
 }
 .navbar-custom.top-nav-collapse {
-  margin-top: 0em;
+  /*margin-top: 0em;*/
 	padding: 0;
 	background: rgb(224,58,62);
 	/*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
