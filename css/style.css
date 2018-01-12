@@ -63,6 +63,11 @@ li {
 	font-size: 18px;
 	text-align: left;
 }
+hr {
+  margin-top: 0;
+  margin-bottom: 40px;
+  border-top: 1px solid #ddd;
+}
 
 .row {
 	margin-right: 0px;
