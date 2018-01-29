@@ -12,7 +12,7 @@
 	<title>ITL Conference</title>
 
   <!-- favicon -->
-  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico?' />
 
 	<!-- Bootstrap Core CSS -->
 	<link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -260,6 +260,24 @@
 	<script src="./js/main.js"></script>
 
   <script>
+    function preloadImages(array) {
+      if (!preloadImages.list) {
+          preloadImages.list = [];
+      }
+      var list = preloadImages.list;
+      for (var i = 0; i < array.length; i++) {
+          var img = new Image();
+          img.onload = function() {
+            var index = list.indexOf(this);
+            if (index !== -1) {
+              list.splice(index, 1);
+            }
+        }
+        list.push(img);
+        img.src = array[i];
+      }
+    }
+
     var images = [
       "./img/Resized/bg0.jpg",
       "./img/Resized/bg3.jpg",
@@ -271,6 +289,8 @@
       "./img/Resized/bg5.jpg",
       "./img/Resized/bg8.jpg",
     ]
+
+    preloadImages(images);
 
     $(function () {
         var i = Math.floor(Math.random() * 9);
